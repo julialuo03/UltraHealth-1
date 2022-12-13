@@ -1,4 +1,4 @@
-# UltraHealth
+# UltraHealth Medical Database
 
 ## Doctor
 - A doctor must select their identity to view their list of patients
