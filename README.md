@@ -1,4 +1,5 @@
 # UltraHealth Medical Database
+by Ben Lischin, Julia Luo, John McCarthy, Aiden Shymanski
 
 ## Doctor
 - A doctor must select their identity to view their list of patients
