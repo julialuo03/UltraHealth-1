@@ -10,5 +10,5 @@ by Ben Lischin, Julia Luo, John McCarthy, Aiden Shymanski
 - They can also view a list of all the available pharmacies and doctors
 
 ## Pharmacist
-- A pharmacist can view all the prescriptions, fill an order for a patient, or update a patients existing prescription
-- At the bottom of the page, the pharmacist can click into the *View Recent Orders* page, where they canview all recent prescription orders
+- A pharmacist can view all the prescriptions or update a patients existing prescription
+- At the bottom of the page, the pharmacist can click into the *Manage Orders* page, where they can view all recent prescription orders or fill an order for a patient
