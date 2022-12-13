@@ -1,25 +1,13 @@
-# MySQL + Flask Boilerplate Project
+# UltraHealth
 
-This repo contains a boilerplate setup for spinning up 2 docker containers: 
-1. A MySQL 8 container for obvious reasons
-1. A Python Flask container to implement a REST API
+## Doctor
+- A doctor must select their identity to view their list of patients
+- At the bottom of the page, the doctor can click into the *Manage Patients* page, where they can either add a new patient or add a prescription to a specific patient of theirs
 
-## How to setup and start the containers
-**Important** - you need Docker Desktop installed
+## Patient
+- A patient must select their identity to view their list of prescriptions (current and past)
+- They can also view a list of all the available pharmacies and doctors
 
-1. Clone this repository.  
-1. Create a file named `db_root_password.txt` in the `secrets/` folder and put inside of it the root password for MySQL. 
-1. Create a file named `db_password.txt` in the `secrets/` folder and put inside of it the password you want to use for the `webapp` user. 
-1. In a terminal or command prompt, navigate to the folder with the `docker-compose.yml` file.  
-1. Build the images with `docker compose build`
-1. Start the containers with `docker compose up`.  To run in detached mode, run `docker compose up -d`. 
-
-## For setting up a Conda Web-Dev environment:
-
-1. `conda create -n webdev python=3.9`
-1. `conda activate webdev`
-1. `pip install flask flask-mysql flask-restful cryptography flask-login`
-
-
-
-
+## Pharmacist
+- A pharmacist can view all the prescriptions, fill an order for a patient, or update a patients existing prescription
+- At the bottom of the page, the pharmacist can click into the *View Recent Orders* page, where they canview all recent prescription orders
