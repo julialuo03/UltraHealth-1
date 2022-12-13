@@ -12,3 +12,5 @@ by Ben Lischin, Julia Luo, John McCarthy, Aiden Shymanski
 ## Pharmacist
 - A pharmacist can view all the prescriptions or update a patients existing prescription
 - At the bottom of the page, the pharmacist can click into the *Manage Orders* page, where they can view all recent prescription orders or fill an order for a patient
+
+Link to demonstration: https://www.youtube.com/watch?v=euRvwgr3dv4&ab_channel=JohnMcCarthy
